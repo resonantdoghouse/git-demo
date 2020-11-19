@@ -17,4 +17,8 @@ app.get('/cats', (req, res) => {
   res.send('<h1>Cats!!!</h1>');
 });
 
+app.get('/dogs', (req, res) => {
+  res.send('<h1>Dogs!!!</h1>');
+});
+
 app.listen(8080, console.log('http://localhost:8080'));
