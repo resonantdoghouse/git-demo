@@ -13,4 +13,8 @@ app.get('/contact', (req, res) => {
   res.send('<h1>Contact Page</h1>');
 });
 
+app.get('/cats', (req, res) => {
+  res.send('<h1>Cats!!!</h1>');
+});
+
 app.listen(8080, console.log('http://localhost:8080'));
