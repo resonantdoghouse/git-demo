@@ -5,11 +5,11 @@ const cors = require('cors');
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.send('<h1>Welcome to my AP1</h1>');
+  res.send('<h1>Welcome to my API</h1>');
 });
 
 app.get('/about', (req, res) => {
-  res.send('<h1>Not much here ye!</h1>');
+  res.send('<h1>Not much here yet</h1>');
 });
 
 app.get('/contact', (req, res) => {
